@@ -74,7 +74,7 @@ class BbxGenerator:
         return
 
     def generate(self, seed=0):
-        self.train_idx, self.val_idx, self.test_idx = self.data_idx_split(seed)
+        self.train_idx, self.explain_idx, self.test_idx = self.data_idx_split(seed)
         self.rf = self.rf_generator(self.train_idx)
         return 'finish'
 

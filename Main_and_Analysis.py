@@ -5,7 +5,7 @@ import time
 
 
 class Main:
-    def __init__(self, rf, dataset_information, max_depth, test_idx, alpha=0, SP_size=10, val_idx=None,
+    def __init__(self, rf, dataset_information, max_depth, test_idx, alpha=0, SP_size=-1, explain_idx=None,
                  task_region=None,
                  measure='Distribution',
                  vector_distance='NL',
@@ -16,7 +16,7 @@ class Main:
         self.alpha = alpha
         self.SP_size = SP_size
         self.test_idx = test_idx
-        self.val_idx = val_idx
+        self.val_idx = explain_idx
         self.task_region = task_region
         self.ms = measure
         self.vds = vector_distance
