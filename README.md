@@ -1,7 +1,6 @@
 # APtree
-Explaining Random Forests as Single Decision Trees.
+Explaining Tree Ensembles through Single Decision Trees.
 
-The proofs of *Lemma 1* and *Proposition 1* in the main text are given in `APPENDIX.pdf`.
 
 ## An Example
 
